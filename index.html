@@ -17,9 +17,9 @@
       background-color: #000;
     }
     iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
+      width: 100vw;
+      height: 100vh;
+      border: 0;
       display: block;
     }
   </style>
@@ -29,7 +29,8 @@
     src="https://vgpu.sh/preview/optimized-black-hole" 
     title="Optimized Black Hole Shader"
     allow="gpu"
-    loading="lazy">
+    sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
+    loading="eager">
   </iframe>
 </body>
 </html>
